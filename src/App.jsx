@@ -11,6 +11,7 @@ import About from "./pages/About";
 import Users from "./pages/Users";
 import Photos from "./pages/Photos";
 import Posts from "./pages/Posts";
+import Comments from "./pages/comments";
 console.log(About);
 // import About from "./pages/about";
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/users" element={<Users />}></Route>
         <Route path="/photos" element={<Photos />}></Route>
         <Route path="/posts" element={<Posts />}></Route>
+        <Route path="/comments" element={<Comments />}></Route>
       </Route>
     )
   );
