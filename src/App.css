@@ -45,6 +45,7 @@ a {
   gap: 50px;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .li {
   width: 330px;
