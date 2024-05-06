@@ -8,7 +8,12 @@ function About() {
       .then((data) => {
         console.log(data);
         setText(data.slice(0, 20));
-      });
+      })
+      .catch(
+        <li>
+          <h1 className="eror">Eror</h1>
+        </li>
+      );
   }, []);
   return (
     <div className="container">
